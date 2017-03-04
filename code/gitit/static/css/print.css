@@ -1,0 +1,65 @@
+/* This is formatted for printing on the Niyogi lab printer and binding with a
+ * 3-hole punch. You might want to adjust the page margins for your setup. For
+ * best results, print using Chrome or Firefox with background graphics on
+ * (colorized tables), default margins, and long-edge binding */
+
+/* TODO any way to fix messed-up table headers when they start a page?? */
+/* TODO how to handle long code lines... truncate or wrap? */
+
+/* Pages */
+@page {
+  margin-top:    0.5cm;
+  margin-bottom: 0.5cm;
+  margin-left:   1.5cm;
+  margin-right:  1.5cm;
+}
+body { 
+  width:100% !important;
+  margin:0 !important;
+  padding:0 !important;
+  line-height: 1.0;
+  font-family: "Times New Roman", serif; color: #000; background: none; font-size: 12pt;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 { font-family: Helvetica, Arial, sans-serif; }
+h1{font-size:19pt;}
+h2{font-size:17pt;}
+h3{font-size:15pt;}
+h4,h5,h6{font-size:12pt;}
+h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link { text-decoration: none; }
+h1.pageTitle { font-size: 150%; font-weight: bold }
+h1.pageTitle a:link { font-weight: bold }
+h1 { font-size: 100%; }
+
+h2.revision { font-size: 10pt; font-weight: normal; font-style: italic; text-align: right; }
+
+pre, code { font: 10pt Courier, monospace; } 
+blockquote { margin: 1.3em; padding: 1em;  font-size: 10pt; }
+hr { background-color: #ccc; }
+
+/* Images */
+img { margin: 0 0 0 0; max-width: 45%; max-height: 15em; padding: 2px 2px 2px 2px; }
+a img { border: none; }
+
+/* Links */
+a:link, a:visited { background: transparent; font-weight: normal; text-decoration: underline; color:#333; }
+a:link:after, a:visited:after { content: " (" attr(href) ")"; font-size: 90%; }
+a {color:#000; }
+
+/* Tables */
+table,td,th { border: 1px solid #ccc ; }
+th { background: #eeffee; text-align: left; }
+table, th, td { border-collapse: collapse; }
+td.lineNumbers { display: none; }
+tr {page-break-inside: avoid;}
+thead { display: table-header-group }
+tfoot { display: table-row-group }
+
+/* hide on-screen navigation elements */
+#maincol { margin-left: 1em; margin-right: 1em; border: none; }
+#content { border: none; }
+#sidebar, #userbox, #footer {display:none;}
+#toc { display: none; }
+#categoryList { display: none; }
+ul.tabs { display: none; }

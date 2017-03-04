@@ -1,0 +1,32 @@
+/* default gitit screen styles */
+@import url("screen.css") ; 
+
+/* for syntax highlighting */
+@import url("hk-pyg.css") ;
+
+/* depgraphs */
+@import url("depgraph.css")
+
+/* defaults */
+html        { background  : #eeffee        ; }
+th          { background  : #eeffee        ; }
+table,td,th { border      : 1px solid #ccc ; }
+img         { max-width   : 650px          ; }
+a           { font-weight : normal         ; }
+a:link      { color       : #008000        ; }
+a:visited   { color       : #61bd4d        ; }
+
+/* tabs */
+ul.tabs li a      { font-weight : normal  ; }
+ul.tabs a:link    { color       : #008000 ; }
+ul.tabs a:visited { color       : #61bd4d ; }
+
+/* sidebar */
+#sidebar   ul { margin          : 1px 1px 1em 1em ; }
+#sidebar   a  { text-decoration : none            ; }
+.sitenav   li { display         : block           ; }
+.pageTools li { display         : block           ; }
+
+/* fix overflow of long lines in code blocks
+ * see https://github.com/jgm/gitit/issues/377 */
+pre{overflow-x: auto;}
