@@ -22,9 +22,9 @@ force me to finish some pull requests.
 
 Here's a tentative list of things to include:
 
-#. [Gitit](notebook/2017-03-05_gitit/about)
+#. ~~Gitit~~
+#. ~~Notebook section~~
 #. Git-annex and syncing
-#. Notebook section
 #. Wiki section
 #. Database section
 #. Nix packages
