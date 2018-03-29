@@ -15,10 +15,10 @@ You can organize them however you want, but I've found a simple list of dated
 folders to work best. That way I don't have to think about which project(s) the
 entry fits under or look in multiple places for it.
 
-Each folder has an `about.page` with (usually markdown) text. It might also
-have images, code, spreadsheets, or other data. They can be linked to by
-filename relative to the folder, which keeps everything easy.
-<!-- TODO use .md pages? -->
+Each folder has a `readme.md` with markdown text, although it could be written
+in other formats. It might also have images, code, spreadsheets, and other
+data.  They can be linked to by filename relative to the folder, which keeps
+everything easy.
 
 Sidebar
 -------
