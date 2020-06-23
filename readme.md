@@ -24,14 +24,13 @@ Here's a tentative list of things to include:
 02. [Notebook section](notebook/2017-03-05_notebook/readme.md)
 03. [Git-annex and syncing](notebook/2017-03-08_git-annex/readme.md)
 04. Wiki section
-05. Database section
-06. Nix packages
-07. CSV Plugin
-08. Citation plugins and Zotero integration
-09. Files plugin
-10. Ace editor
-11. RMarkdown plugin
-12. Dot plugin
-13. Printing pages
-14. Demo site
-15. Sandbox
+05. Nix packages
+06. CSV Plugin
+07. Citation plugins and Zotero integration
+08. Files plugin
+19. Ace editor
+10. RMarkdown plugin
+11. Dot plugin
+12. Printing pages
+13. Demo site
+14. Sandbox
