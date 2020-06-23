@@ -1,7 +1,5 @@
 # Gitit
 
-<!-- TODO explain notebook/ -->
-<!-- TODO explain code/gitit -->
 <!-- TODO explain code/scripts -->
 
 Labwiki uses [my fork](https://github.com/jefdaj/gitit) of
@@ -22,9 +20,9 @@ Config files
 
 The rest of the [gitit-related code](/code/gitit/) is a customized copy of [the
 default data dir](https://github.com/jgm/gitit/tree/master/data) that comes
-with the package. Any files you add will override the defaults.
+with gitit. Any files you add will override the defaults.
 
-The most important part is [the main config file](/code/gitit/gitit.conf), but
+The most important part is the main [gitit.conf](/code/gitit/gitit.conf), but
 there are also [static web files](/code/gitit/static/) (images, css) and dynamic
 [HTML templates](/code/gitit/templates/). They're written in a pretty simple
 templating language: you surround variables with dollar signs, and it supports

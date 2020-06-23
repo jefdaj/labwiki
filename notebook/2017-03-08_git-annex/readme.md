@@ -2,7 +2,7 @@
 
 Gitit works with the git, darcs, or mercurial version control systems. Most
 people use git though, and if you do you can take advantage of a another great
-tool: git-annex. It lets you version control files that are too large to check
+tool: [git-annex][1]. It lets you version control files that are too large to check
 into git. Perfect for reproducable science! I keep genomes and sequencing data
 in my wiki. Also a lot of photos, and even a few microscope videos.
 
@@ -25,7 +25,7 @@ too:
   many redundant copies you want of each across all your devices
 
 * A web-app that automates as much as possible to turn it into a kind of
-  decentralized DropBox.
+  decentralized DropBox
 
 I'm not aware of anything similar using other version control systems, but also
 haven't looked. It shouldn't be hard to add darcs/mercurial support for them
@@ -53,7 +53,8 @@ Syncing wikis
 
 I keep an instance of the wiki running on my laptop, one on my lab computer,
 and one at home. Each is added as a an ssh remote of the others. Running `git
-annex sync --content` would keep everything in sync over the internet.
+annex sync && git annex sync --content` would keep everything in sync over the
+internet.
 
 Because of the large files, though, what I actually do is keep a fourth
 repository on a USB drive and sync it with each computer. Git annex uses it as
@@ -65,3 +66,5 @@ broken symlinks behind). Git annex checks that the other repositories have
 copies first. When I need to work on a specific large file I `git annex get`
 it, which downloads the file with the correct hash from wherever it's actually
 stored. I do that over the internet.
+
+[1]: https://git-annex.branchable.com/
