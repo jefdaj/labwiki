@@ -20,7 +20,7 @@ force me to finish some pull requests.
 
 Here's a tentative list of things to include:
 
-01. ~~Gitit~~
+01. [Gitit](notebook/2017-03-05_gitit/readme.md)
 02. ~~Notebook section~~
 03. ~~Git-annex and syncing~~
 04. Wiki section
