@@ -1,6 +1,4 @@
----
-title: LabWiki
-...
+# LabWiki
 
 This demo/test wiki is part of my ongoing effort to clean up and release my lab
 code. I've been keeping an electronic lab notebook for several years now, and
@@ -23,31 +21,17 @@ force me to finish some pull requests.
 Here's a tentative list of things to include:
 
 01. ~~Gitit~~
-
 02. ~~Notebook section~~
-
 03. ~~Git-annex and syncing~~
-
 04. Wiki section
-
 05. Database section
-
 06. Nix packages
-
 07. CSV Plugin
-
 08. Citation plugins and Zotero integration
-
 09. Files plugin
-
 10. Ace editor
-
 11. RMarkdown plugin
-
 12. Dot plugin
-
 13. Printing pages
-
 14. Demo site
-
 15. Sandbox
