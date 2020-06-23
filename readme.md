@@ -32,5 +32,5 @@ Here's a tentative list of things to include:
 10. RMarkdown plugin
 11. Dot plugin
 12. Printing pages
-13. Demo site
+13. Demo site via github pages
 14. Sandbox
