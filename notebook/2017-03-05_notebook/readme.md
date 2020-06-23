@@ -1,6 +1,4 @@
----
-title: Notebook
-...
+# Notebook
 
 Most of the wiki content is in notebook entries. I have a tendency to write too
 much in these, which would be fine except it sometimes prevents me from

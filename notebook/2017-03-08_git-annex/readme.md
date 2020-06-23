@@ -1,6 +1,4 @@
----
-title: Git-anex and syncing
-...
+# Git-annex and syncing
 
 Gitit works with the git, darcs, or mercurial version control systems. Most
 people use git though, and if you do you can take advantage of a another great

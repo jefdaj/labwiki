@@ -1,6 +1,4 @@
----
-title: Gitit
-...
+# Gitit
 
 <!-- TODO explain notebook/ -->
 <!-- TODO explain code/gitit -->
