@@ -21,8 +21,8 @@ force me to finish some pull requests.
 Here's a tentative list of things to include:
 
 01. [Gitit](notebook/2017-03-05_gitit/readme.md)
-02. ~~Notebook section~~
-03. ~~Git-annex and syncing~~
+02. [Notebook section](notebook/2017-03-05_notebook/readme.md)
+03. [Git-annex and syncing](notebook/2017-03-08_git-annex/readme.md)
 04. Wiki section
 05. Database section
 06. Nix packages
